@@ -1,0 +1,76 @@
+
+html,body,main,#home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    background: url("../imagens/capa.png"), url("../imagens/ruido.png"), linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+}
+
+header .div-topo{
+    background: rgba(0,0,0,0.7);
+}
+
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover {
+    color: #1ed760;
+}
+
+#home .texto-principal{
+    margin-bottom:60px;
+}
+
+#home .btn {
+    padding: 7px 15px;
+    border-radius: 3rem;
+    font-weight: 550;
+}
+
+#home a {
+    margin: 10px 0;
+}
+
+#home a.aproveite{
+    color: #fff;
+    background-color: #821dfa;
+}
+
+#conteudo .galeria-fotos div{
+    margin: 10px 0;
+}
+
+#conteudo .texto-conteudo h1,#conteudo .texto-conteudo h2{
+    color: #821dfa;
+    font-weight: bold;
+}
+
+#conteudo-apresentacao .texto-apresentacao{
+    color: #AAEAE5;
+}
+
+#conteudo-apresentacao .iphone-imgs{
+    -ms-transform: rotate(30deg); /* IE 9 */
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+footer{
+    position: relative;
+    background-color: #000;
+}
+
+footer div p{
+    color: #6a6a6a;
+    font-size: 0.8em;
+    height: 5px;
+}
+
+footer div ul li{
+    font-size: 0.9em;
+}
+
